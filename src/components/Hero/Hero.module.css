@@ -1,0 +1,20 @@
+.title {
+  padding: 8px;
+  margin-top: 0;
+  border-radius: 8px;
+
+  font-size: 40px;
+  font-weight: 500;
+  text-align: start;
+}
+.hero__image {
+  width: 300px;
+}
+.hero__section {
+  margin-top: 50px;
+  display: flex;
+}
+.hero__contain {
+  margin-left: 50px;
+  max-width: 600px;
+}

@@ -1,0 +1,32 @@
+.MainPage_img {
+  width: 200px;
+  height: 200px;
+}
+.MainPage__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  list-style: none;
+  max-width: 250px;
+}
+.MainPage__catalog {
+  display: flex;
+  padding: 0;
+  margin-bottom: 50px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.MainPage__button {
+  position: relative;
+  left: 50%;
+  margin-bottom: 75px;
+
+  background-color: rgb(39, 39, 39);
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 20px 10px 20px;
+
+  border-radius: 5px;
+  border: 1px solid inherit;
+}

@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import Loader from 'react-loader-spinner';
 import Container from './components/Container';
-import AppBar from './components/AppBar/AppBar';
+import Header from './components/Header/Header';
 import errorImage from './pages/error.jpg';
 import './App.css';
 
@@ -16,8 +16,8 @@ const NotFoundView = lazy(() =>
 
 export default function App() {
   return (
-    <Container title="Hello world!">
-      <AppBar />
+    <Container>
+      <Header />
 
       <Suspense
         fallback={

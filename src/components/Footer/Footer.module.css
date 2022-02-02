@@ -1,0 +1,27 @@
+.footer__section {
+  display: flex;
+
+  border: 1px solid black;
+}
+.footer__mainInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__stuff {
+}
+.footer__logo {
+  display: block;
+  width: 100px;
+}
+.footer__socials {
+  display: flex;
+  flex-direction: row;
+
+  margin: 0px;
+
+  list-style: none;
+}
+.footer__icon {
+  margin-left: 10px;
+}
