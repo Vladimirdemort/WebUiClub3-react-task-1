@@ -1,13 +1,23 @@
 .link {
+  color: #8d7278;
   display: inline-block;
   text-decoration: none;
   padding: 12px;
   font-weight: 500;
-  color: #2a363b;
-  font-size: 18px;
+  font-size: 24px;
+}
+.active {
+  /* composes: link; */
+  color: #a7304a;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  font-size: 24px;
+  display: inline-block;
+  text-decoration: none;
 }
 
-.active {
-  composes: link;
-  color: #2196f3;
+.active:hover{
+  background-color: rgb(233, 199, 199);
+  border-radius: 20px;
+  transition: all 0.3s ease-out;
 }

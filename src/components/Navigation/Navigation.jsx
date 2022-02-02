@@ -10,6 +10,18 @@ export default function Navigation() {
       >
         Home
       </NavLink>
+      <NavLink
+        to=""
+        className={({ isActive }) => (isActive ? s.active : s.link)}
+      >
+        Catalog
+      </NavLink>
+      <NavLink
+        to=""
+        className={({ isActive }) => (isActive ? s.active : s.link)}
+      >
+        Cart
+      </NavLink>
     </nav>
   );
 }
