@@ -1,8 +1,11 @@
+import s from './SvgSelector.module.css';
+
 export default function SvgSelector({ id }) {
   switch (id) {
     case 'facebook':
       return (
         <svg
+          className={s.facebook}
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
           width="32"
@@ -15,6 +18,7 @@ export default function SvgSelector({ id }) {
     case 'google':
       return (
         <svg
+          className={s.google}
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
           width="32"
@@ -28,6 +32,7 @@ export default function SvgSelector({ id }) {
     case 'linkedin':
       return (
         <svg
+          className={s.linkedin}
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
           width="32"
@@ -42,6 +47,7 @@ export default function SvgSelector({ id }) {
     case 'twitter':
       return (
         <svg
+          className={s.twitter}
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
           width="32"

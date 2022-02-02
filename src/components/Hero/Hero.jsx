@@ -8,7 +8,7 @@ export default function Hero({ text }) {
         <div>
           <img
             className={s.hero__image}
-            src="https://d177dzgzj7inq8.cloudfront.net/media/image/8c/85/e9/Think_Text-Bild_Desktop_Kong_Schnuerer_Herren_braun.jpg"
+            src="https://d177dzgzj7inq8.cloudfront.net/media/image/c9/5c/12/Think_Kategoriebild_Header-Teaser_Small_Desktop_Herren_Stiefel-Stiefeletten_1440x1440.jpg"
             alt="shoes"
           />
         </div>

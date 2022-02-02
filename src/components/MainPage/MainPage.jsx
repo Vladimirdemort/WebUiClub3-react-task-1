@@ -13,7 +13,7 @@ export default function MainPage() {
               alt=""
             />
             <h2>Tile 1 Heading</h2>
-            <p>
+            <p className={s.MainPage__text}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
               expedita natus magni mollitia tempora architecto praesentium
               perspiciatis totam. Quis, dolorem!
@@ -26,7 +26,7 @@ export default function MainPage() {
               alt=""
             />
             <h2>Tile 2 Heading</h2>
-            <p>
+            <p className={s.MainPage__text}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
               expedita natus magni mollitia tempora architecto praesentium
               perspiciatis totam. Quis, dolorem!
@@ -39,7 +39,7 @@ export default function MainPage() {
               alt=""
             />
             <h2>Tile 3 Heading</h2>
-            <p>
+            <p className={s.MainPage__text}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
               expedita natus magni mollitia tempora architecto praesentium
               perspiciatis totam. Quis, dolorem!

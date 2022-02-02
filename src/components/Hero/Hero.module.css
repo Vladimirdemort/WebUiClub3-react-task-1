@@ -8,7 +8,9 @@
   text-align: start;
 }
 .hero__image {
-  width: 300px;
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
 }
 .hero__section {
   margin-top: 50px;
