@@ -1,4 +1,3 @@
-import Section from 'components/Section/Section';
 import s from './Footer.module.css';
 import SvgSelector from 'icons/SvgSelector';
 
