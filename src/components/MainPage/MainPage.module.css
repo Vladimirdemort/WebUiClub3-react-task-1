@@ -19,14 +19,24 @@
 }
 .MainPage__button {
   position: relative;
-  left: 50%;
+  left: 45%;
   margin-bottom: 75px;
 
-  background-color: rgb(39, 39, 39);
-  color: #fff;
+  background-color: rgb(233, 199, 199);
+  color: #000;
   font-weight: 600;
   padding: 10px 20px 10px 20px;
 
   border-radius: 5px;
-  border: 1px solid inherit;
+  border: 1px solid rgb(233, 199, 199);
+
+  cursor: pointer;
+}
+
+.MainPage__button:hover {
+  background-color: #a7304a;
+  color: #fff;
+}
+.MainPage__text {
+  text-align: center;
 }

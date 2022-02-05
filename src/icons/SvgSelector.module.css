@@ -1,0 +1,35 @@
+.facebook {
+  border-radius: 50%;
+  fill: darkblue;
+  transition: transform 500ms ease;
+}
+.facebook:hover {
+  transform: rotate(360deg);
+}
+.google {
+  border-radius: 50%;
+  fill: #fff;
+  background-color: red;
+  transition: transform 500ms ease;
+}
+.google:hover {
+  transform: rotate(360deg);
+}
+.linkedin {
+  border-radius: 50%;
+  fill: #fff;
+  background-color: darkcyan;
+  transition: transform 500ms ease;
+}
+.linkedin:hover {
+  transform: rotate(360deg);
+}
+.twitter {
+  border-radius: 50%;
+  fill: #fff;
+  background-color: lightskyblue;
+  transition: transform 500ms ease;
+}
+.twitter:hover {
+  transform: rotate(360deg);
+}

@@ -11,13 +11,13 @@ export default function Navigation() {
         Home
       </NavLink>
       <NavLink
-        to=""
+        to="/catalog"
         className={({ isActive }) => (isActive ? s.active : s.link)}
       >
         Catalog
       </NavLink>
       <NavLink
-        to=""
+        to="/cart"
         className={({ isActive }) => (isActive ? s.active : s.link)}
       >
         Cart
