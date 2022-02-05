@@ -36,5 +36,5 @@ export default function Footer() {
         <p>2022 @ Copyright all rigts reserved</p>
       </Section>
     </div>
-  );
+  )
 }
