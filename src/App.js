@@ -10,6 +10,7 @@ import CatalogPage from 'pages/CatalogPage';
 import errorImage from './pages/error.jpg';
 import './App.css';
 
+
 const HomeView = lazy(() =>
   import('./pages/HomeView.jsx' /* webpackChunkName: "HomeView" */),
 );
@@ -36,6 +37,7 @@ export default function App() {
         <Routes>
           <Route path="" element={<HomeView />} />
           <Route path="/catalog" element={<CatalogPage />} />
+
           <Route
             path="*"
             element={
