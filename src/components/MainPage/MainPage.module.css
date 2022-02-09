@@ -8,10 +8,11 @@
   align-items: center;
 
   list-style: none;
-  max-width: 250px;
+  max-width: 30%;
 }
 .MainPage__catalog {
   display: flex;
+  flex-wrap: wrap;
   padding: 0;
   margin-bottom: 50px;
   justify-content: space-between;
