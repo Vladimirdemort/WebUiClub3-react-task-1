@@ -30,7 +30,7 @@ export default function MainPageItems() {
         type="button"
         onClick={e => setViewMore(!viewMore)}
       >
-        View more
+        {viewMore ? 'View less' : 'View more'}
       </button>
     </div>
   );
