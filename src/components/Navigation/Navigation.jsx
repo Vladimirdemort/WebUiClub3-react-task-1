@@ -1,7 +1,18 @@
+// import React, {useState} from 'react'
 import { NavLink } from 'react-router-dom';
 import s from './Navigation.module.css';
+// import Researchbox from 'components/Navigation/Researchbox'
 
 export default function Navigation() {
+  // const [visability, setVisability] = useState(false)
+
+  // function handlechange() {
+  //     setVisability(true)
+  // }
+
+  // function handlenot() {
+  //     setVisability(false)
+
   return (
     <nav>
       <NavLink
@@ -22,6 +33,7 @@ export default function Navigation() {
       >
         Cart
       </NavLink>
+        {/* {visability && <Researchbox/>} */}
     </nav>
   );
 }

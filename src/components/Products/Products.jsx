@@ -3,6 +3,8 @@ import s from './Products.module.css';
 import data from './Data';
 import Itemcard from './Itemcard';
 
+
+
  const Products = () => {
     
     return (
@@ -14,7 +16,10 @@ import Itemcard from './Itemcard';
                     img = {item.image} 
                     title = {item.title} 
                     description = {item.description} 
-                    price = {item.price} 
+                    price = {item.price}
+                    brand = {item.brand} 
+                    color = {item.color}  
+                    size = {item.size}
                     key = {index} />
                 )
             })}
