@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 import FilterPanel from 'components/FilterPanel/FilterPanel';
 import Products from 'components/Products/Products';
@@ -50,9 +50,7 @@ export default function CatalogPage() {
         break;
     }
   };
-  useEffect(() => {
-    console.log(productItems);
-  }, [alphabet]);
+
   return (
     <div>
       <FilterPanel alphabet={alphabet} price={price} />
