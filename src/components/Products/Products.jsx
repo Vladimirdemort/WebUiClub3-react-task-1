@@ -1,27 +1,27 @@
 import Section from '../Section/Section';
 import s from './Products.module.css';
-import data from './Data';
+
 import Itemcard from './Itemcard';
 
- const Products = () => {
-    
-    return (
+const Products = ({ data }) => {
+  console.log(data);
+  return (
     <Section>
-        <div className ={s.Products__catalog}>
-            {data.productItems.map((item, index) => {
-                return(
-                    <Itemcard 
-                    img = {item.image} 
-                    title = {item.title} 
-                    description = {item.description} 
-                    price = {item.price} 
-                    key = {index} />
-                )
-            })}
-        </div>
-    </Section>   
-    );
+      <div className={s.Products__catalog}>
+        {data.map((item, index) => {
+          return (
+            <Itemcard
+              img={item.image}
+              title={item.title}
+              description={item.description}
+              price={item.price}
+              key={item.id}
+            />
+          );
+        })}
+      </div>
+    </Section>
+  );
 };
-
 
 export default Products;
