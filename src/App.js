@@ -3,13 +3,10 @@ import { lazy, Suspense } from 'react';
 import { Routes, Route,  } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import Loader from 'react-loader-spinner';
-// import Catalog from './components/CatalogCard/Catalog';
 import Footer from 'components/Footer/Footer';
 import Container from './components/Container';
 import Header from './components/Header/Header';
 import CatalogPage from 'pages/CatalogPage';
-// import CatalogItem from 'components/CatalogCard/CatalogItem';
-// import ShoseContext from 'components/ShoseContext';
 import errorImage from './pages/error.jpg';
 import './App.css';
 
@@ -22,11 +19,7 @@ const NotFoundView = lazy(() =>
 );
 
 export default function App() {
-  // const [searchedShose, setSearchedShose] = useState('');
-  // const providerValue = useMemo(
-  //     () => ({ searchedShose, setSearchedShose }),
-  //     [searchedShose]
-  // );
+
   return (
     <Container>
       

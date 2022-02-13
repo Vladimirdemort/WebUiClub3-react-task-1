@@ -60,6 +60,7 @@
     ]
   },
   "devDependencies": {
+    "@types/shortid": "^0.0.29",
     "eslint": "^7.11.0",
     "husky": "^7.0.4",
     "lint-staged": "^11.2.6",
