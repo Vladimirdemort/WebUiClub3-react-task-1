@@ -3,7 +3,6 @@ import s from './Products.module.css';
 import Itemcard from './Itemcard';
 
 const Products = ({ data }) => {
-  console.log(data);
   return (
     <Section>
       <div className={s.Products__catalog}>
@@ -21,7 +20,6 @@ const Products = ({ data }) => {
       </div>
     </Section>
   );
-
 };
 
 export default Products;

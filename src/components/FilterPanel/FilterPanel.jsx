@@ -1,5 +1,3 @@
-
-// import alphabet from 'shortid/lib/alphabet';
 import s from './FilterPanel.module.css';
 
 export default function FilterPanel({ alphabet, price, sex }) {
@@ -15,7 +13,7 @@ export default function FilterPanel({ alphabet, price, sex }) {
         <option value="lowest">Lowest price</option>
         <option value="highest">Highest price</option>
       </select>
-      <select className={s.filter__select}>
+      <select onChange={sex} className={s.filter__select}>
         <option value="default">Men/Woman</option>
         <option value="men">Men</option>
         <option value="women">Women</option>
@@ -26,4 +24,3 @@ export default function FilterPanel({ alphabet, price, sex }) {
     </form>
   );
 }
-
