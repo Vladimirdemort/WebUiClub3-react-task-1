@@ -1,6 +1,7 @@
 .Products__catalog {
     max-width: 1200px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding:50px 0px;
     justify-items: center;
@@ -9,7 +10,7 @@
 }
 
 .Card__image {
-    max-width: 300;
+    max-width: 200px;
 }
 .Card__title {
     color: #a7304a
@@ -23,4 +24,5 @@
   border-radius: 4px;
   color: black;
   text-align: center;
+  padding: 5px;
 }

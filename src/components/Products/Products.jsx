@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 
 import Section from '../Section/Section';
 import s from './Products.module.css';
-
 import Itemcard from './Itemcard';
 
 const Products = ({ data }) => {
@@ -20,13 +19,14 @@ const Products = ({ data }) => {
               title={item.title}
               description={item.description}
               price={item.price}
-              key={item.id}
+              key={index.id}
             />
           );
         })}
       </div>
     </Section>
   );
+
 };
 
 export default Products;

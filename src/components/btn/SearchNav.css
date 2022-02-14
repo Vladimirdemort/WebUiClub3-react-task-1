@@ -1,0 +1,16 @@
+  .searchInput {
+    position: relative;
+  }
+  .searchInput__input {
+    width: 200px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 25px;
+    border: 1px  #a7304a solid;
+  }
+  
+  .searchInput__icon {
+    position: absolute;
+    left: 10px;
+    top: 14px;
+    color: #a7304a;
+  }
