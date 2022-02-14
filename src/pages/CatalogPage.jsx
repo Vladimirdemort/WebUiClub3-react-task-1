@@ -20,8 +20,8 @@ export default function CatalogPage() {
       case 'zero':
         setProductItem(
           productItems.sort((a, b) => b.title.localeCompare(a.title)),
-          console.log(productItems),
         );
+
         break;
 
       default:
@@ -36,13 +36,12 @@ export default function CatalogPage() {
     switch (selectPrice) {
       case 'lowest':
         setProductItem(productItems.sort((a, b) => a.price - b.price));
+        console.log(selectPrice);
 
         break;
       case 'highest':
-        setProductItem(
-          productItems.sort((a, b) => b.price - a.price),
-          console.log(productItems),
-        );
+        setProductItem(productItems.sort((a, b) => b.price - a.price));
+
         break;
 
       default:
@@ -51,9 +50,31 @@ export default function CatalogPage() {
     }
   };
 
+  const sex = e => {
+    const selectSex = e.target.value;
+    console.log(selectSex);
+    switch (selectSex) {
+      case 'men':
+        setProductItem(
+          data.productItems.filter(product => product.sex === 'men'),
+        );
+
+        break;
+      case 'women':
+        setProductItem(
+          data.productItems.filter(product => product.sex === 'women'),
+        );
+        console.log(productItems);
+        break;
+
+      default:
+        setProductItem(data.productItems);
+        break;
+    }
+  };
   return (
     <div>
-      <FilterPanel alphabet={alphabet} price={price} />
+      <FilterPanel alphabet={alphabet} price={price} sex={sex} />
       <Products data={productItems} />
     </div>
   );

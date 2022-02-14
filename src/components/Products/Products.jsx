@@ -1,10 +1,15 @@
+import React, { useState, useEffect } from 'react';
+
 import Section from '../Section/Section';
 import s from './Products.module.css';
 
 import Itemcard from './Itemcard';
 
 const Products = ({ data }) => {
-  console.log(data);
+  useEffect(() => {
+    console.log(data);
+  }, [data]);
+
   return (
     <Section>
       <div className={s.Products__catalog}>
