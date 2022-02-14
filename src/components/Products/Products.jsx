@@ -14,7 +14,7 @@ const Products = ({ data }) => {
               title={item.title}
               description={item.description}
               price={item.price}
-              key={index.id}
+              key={item.id}
             />
           );
         })}

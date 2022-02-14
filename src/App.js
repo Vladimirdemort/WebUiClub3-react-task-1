@@ -19,7 +19,6 @@ const NotFoundView = lazy(() =>
 );
 
 export default function App() {
-
   return (
     <Container>
       
